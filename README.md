@@ -59,8 +59,7 @@ konsep (abstract class, mixin, `Future`/`await`, `Stream`), memberi kerangka
 kode dengan bagian kosong yang saya lengkapi sendiri, dan membantu menemukan
 kesalahan, misalnya angka diskon yang keliru, kelas `Mobil` yang belum dibuat,
 dan baris kejadian yang dipanggil sebelum variabelnya dibuat. Kode saya tulis,
-jalankan, dan uji sendiri. Draf README ini juga dibantu AI, lalu saya periksa
-dan sesuaikan dengan kode saya.
+jalankan, dan uji sendiri. 
 
 Hal yang saya pelajari antara lain: getter abstrak dipakai agar subclass wajib
 menyediakan nilainya, `await` harus berada di dalam `try` agar exception dari
