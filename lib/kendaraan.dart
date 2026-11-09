@@ -35,6 +35,16 @@ class Mobil extends Kendaraan {
   int get tarifPerJam => 5000;
 }
 
+class Becak extends Kendaraan {
+  Becak(super.plat, super.waktuMasuk);
+
+  @override
+  String get jenis => 'Becak';
+
+  @override
+  int get tarifPerJam => 1000;
+}
+
 mixin Berlangganan on Kendaraan {
   @override
   int biaya(DateTime keluar) {
