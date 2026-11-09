@@ -28,7 +28,7 @@ Biaya dibulatkan ke atas per jam, minimal 1 jam.
 
 ## Diagram Kelas
 
-![Diagram Kelas Sederhana](screenshots/diagram kelas sederhana.png)
+![Diagram Kelas Sederhana](screenshots/diagram%20kelas%20sederhana.png)
 
 ## Tangkapan Layar
 
