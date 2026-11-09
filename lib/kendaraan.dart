@@ -24,3 +24,28 @@ class Motor extends Kendaraan {
   @override
   int get tarifPerJam => 2000;
 }
+
+class Mobil extends Kendaraan {
+  Mobil(super.plat, super.waktuMasuk);
+
+  @override
+  String get jenis => 'Mobil';
+
+  @override
+  int get tarifPerJam => 5000;
+}
+
+mixin Berlangganan on Kendaraan {
+  @override
+  int biaya(DateTime keluar) {
+    final int normal = super.biaya(keluar);
+    return (normal * 0.5).round();
+  }
+}
+
+class MobilMember extends Mobil with Berlangganan {
+  MobilMember(super.plat, super.waktuMasuk);
+
+  @override
+  String get jenis => 'Mobil (member)';
+}
